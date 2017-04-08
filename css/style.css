@@ -10,42 +10,90 @@ body{
   text-align: center;
   color: #ffffff;
 }
-.image{
+ul.dish li {
+  position: relative;
   padding: 0;
-  margin: 0px;
-  float: none;
-  width: 200px;
-  height: 150px;
-  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat center;
-  text-align: center;
-  color: #ffffff;
+  display: inline-grid;
+  float: right;
 }
-#box{
-  width: 29%;
-  float: left;
-  margin: 1% 1%;
+.one1{
+  margin: 0px;
   text-align: center;
 
-.highlight a{
-    color: #e8491d;
-    font-weight: bold;
-  }
+}
+.two{
+  margin-bottom: 0;
+  text-align: center;
+
+}
+.dinner{
+  margin: 0;
+  min-height: 300px;
+  background: url('../ip2/assets/foodtop/dinner.jpg') no-repeat;
+  background-color: ffffff;
+  text-align: center;
+  font-size: large;
+}
+.lunch{
+  min-height: 300px;
+  background: url('../ip2/assets/foodtop/lunch.jpg') no-repeat;
+  background-color: ffffff;
+  text-align: center;
+  font-size: large;
+}
+.breakfast{
+  min-height: 300px;
+  background: url('../ip2/assets/foodtop/breakfast.jpg') no-repeat;
+  background-color: ffffff;
+  text-align: center;
+  font-size: large;
+}
+.fastfood {
+  min-height: 100px;
+}
+#newsletter{
+  min-height: 200px;
+  padding: 15px;
+  color: #ffffff;
+  background:url('../ip2/assets/backgrounds/subscribe.jpg') no-repeat;
 
 
+  text-align: center;
+
+}
 
 
-
-
-
-
-
-
-
-
+#newsletter form{
+  float: center;
+  margin: 15px;
+}
+#newsletter input[type = "email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
 footer {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 0px;
   color: #ffffff;
   background-color: #e8491d;
   text-align: center;
 }
+/*.box{
+  background-color: lightgrey;
+  width: 20%;
+  height: 100px;
+  border: 1px solid lightgey;
+  text-align: center;
+  float: left;
+
+}
+.box2{
+  background-color: lightgrey;
+  width: 20%;
+  height: 100px;
+  border: 1px solid lightgey;
+  text-align: center;
+  float: left;
+
+}*/
