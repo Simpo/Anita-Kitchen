@@ -85,7 +85,7 @@ ul.dish li {
   min-height: 100px;
 }
 #mainContainer{
-  min-height: 700px;
+  min-height: 400px;
   background:url('../ip2/assets/backgrounds/foodsBg.jpg') no-repeat;
   text-align: center;
   color: #ffffff;
@@ -114,6 +114,9 @@ ul.dish li {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+#happy{
+  min-height: 400px;
 }
 
 
