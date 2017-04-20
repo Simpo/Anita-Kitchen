@@ -41,6 +41,7 @@ ul.dish li {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 
 }
 
@@ -83,8 +84,43 @@ ul.dish li {
 .fastfood {
   min-height: 100px;
 }
+#mainContainer{
+  min-height: 700px;
+  background:url('../ip2/assets/backgrounds/foodsBg.jpg') no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+/*.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 30%;
+    margin: 0px;
+}*/
+/*#panel1{
+  height: 50px;
+  /*width: 300px;*/
+  /*position:fixed;*/
+  left:0px;
+  top:0px;
+  bottom:0px;
+  width:200px;
+}*/
+/*.pane{
+  height: 500px;
+  width: 1200px;
+
+}*/
+.container .panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+
 #newsletter{
-  min-height: 200px;
+  min-height: 100px;
   padding: 15px;
   color: #ffffff;
   background:url('../ip2/assets/backgrounds/subscribe.jpg') no-repeat;
@@ -110,4 +146,7 @@ footer {
   color: #ffffff;
   background-color: #e8491d;
   text-align: center;
+}
+.logo{
+  display: inline-block;
 }
